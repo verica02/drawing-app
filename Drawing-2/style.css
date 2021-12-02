@@ -1,0 +1,112 @@
+body{
+font-family:Arial, Helvetica, sans-serif	
+}
+
+canvas{
+	background-color:rgba(240, 236, 236, 0.603);
+	border:1px dashed;
+	display:flex;
+	margin:auto;
+	
+}
+
+a{
+	display:inline-block;	
+	background:rgba(102, 153, 204, 0.384);
+	color:#fff;
+	padding:10px 10px;
+	border-radius:20%;
+	
+	text-decoration:none;
+}
+
+.pen-tools{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	width:60%;
+	margin:  auto;
+	
+}
+
+
+.buttons{
+	display:flex;
+	
+	justify-content: space-around;
+	margin-bottom: 10px;
+
+}
+
+
+.fa-refresh{
+margin-left: 10px;
+background-color: rgba(255, 0, 0, 0.247);
+padding:10px 10px;
+border-radius: 20%;
+color:white;
+cursor:pointer;
+font-size:20px;
+}
+
+p{
+padding-right:10px;
+}
+
+.favcolor{
+	display:flex;
+	align-items:center;
+	
+}
+.pen-size{
+	display:flex;
+	flex-direction:column;
+	text-align: center;
+	font-size:16px;
+	margin-bottom:5px;
+	margin-left:10px;
+
+}
+
+.board{
+	width:100%;
+	margin:auto;
+	
+
+}
+.drawing-colors{
+	display:flex;
+	margin-bottom:10px;
+
+}
+.color-circle{
+	height:20px;
+	width:20px;
+	border-radius:20%;
+	margin-left: 10px;
+	
+	border:3px solid rgba(0, 0, 0, 0.295);
+	cursor:pointer;
+}
+.color-circle:nth-child(1){
+background-color: hotpink;
+}
+.color-circle:nth-child(2){
+background-color: green;
+}
+.color-circle:nth-child(3){
+background-color: blue;
+}
+.color-circle:nth-child(4){
+background-color: black;
+}
+.color-circle:nth-child(5){
+background-color: yellow;
+margin-right:10px;
+}
+		
+
+.active{
+	transform:scale(1.3);
+}
+
